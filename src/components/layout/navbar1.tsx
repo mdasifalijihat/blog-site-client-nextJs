@@ -60,7 +60,6 @@ interface Navbar1Props {
 }
 
 const Navbar = ({
- 
   menu = [
     { title: "Home", url: "/" },
     {
@@ -78,6 +77,10 @@ const Navbar = ({
     {
       title: "Dashboard",
       url: "/dashboard",
+    },
+    {
+      title: "Practice",
+      url: "/practice",
     },
   ],
   auth = {
@@ -127,7 +130,7 @@ const Navbar = ({
               <SheetContent className="overflow-y-auto">
                 <SheetHeader>
                   <SheetTitle>
-                   <h2>logo</h2>
+                    <h2>logo</h2>
                   </SheetTitle>
                 </SheetHeader>
                 <div className="flex flex-col gap-6 p-4">
